@@ -1,0 +1,9 @@
+/.mypy_cache/
+/detector/__pycache__/
+/vibe_detector/__pycache__/
+/detector/csrf_folder/__pycache__/
+/detector/migrations/__pycache__/
+/detector/repo/__pycache__/
+/detector/service/__pycache__/
+.env
+/vibe-env/

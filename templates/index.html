@@ -1,0 +1,46 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI-Generated Code Detection API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="card">
+        <h1>AI-Generated Code Detection API</h1>
+
+        <p>
+          This powerful API analyzes GitHub repositories and websites to
+          determine whether a project was likely generated or heavily assisted
+          by AI coding tools. By providing a <strong>repository URL</strong> or
+          <strong>website link</strong>, the system scans the source code and
+          evaluates multiple structural and behavioral signals.
+        </p>
+
+        <p>
+          Using advanced techniques such as <strong>AST parsing</strong>,
+          <strong>JavaScript bundle analysis</strong>,
+          <strong>entropy analysis</strong>,
+          <strong>code repetition metrics</strong>, and
+          <strong>LLM fingerprint detection</strong>, the API identifies
+          patterns commonly found in AI-generated codebases.
+        </p>
+
+        <p>
+          After processing, the system returns a <strong>vibe score</strong>,
+          detected frameworks, and detailed signals showing why the project may
+          be AI-generated. This helps developers, researchers, and organizations
+          audit repositories, understand code origins, and evaluate AI influence
+          in modern software projects.
+        </p>
+        <a href="/docs" class="btn">View API Docs</a>
+      </div>
+      <footer>
+        Powered by Astro | Smart Routes & Fuel Intelligence © 2025
+      </footer>
+    </div>
+  </body>
+</html>
