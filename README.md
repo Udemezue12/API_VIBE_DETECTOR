@@ -214,7 +214,7 @@ Redis
 Docker (optional)
 
 Clone the Repository
-git clone https://github.com/yourusername/API_VIBE_DETECTOR.git
+git clone https://github.com/Udemezue12/API_VIBE_DETECTOR.git
 cd API_VIBE_DETECTOR
 Create a Virtual Environment
 python -m venv venv
